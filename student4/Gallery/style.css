@@ -1,0 +1,251 @@
+/* gallery css */
+.gallery_body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #F1F8E9;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    z-index: var(100);
+    background-color: #c1e899;
+}
+  
+.nav_container{
+    margin-top: 0.75rem;
+    margin-inline: 4rem;
+}
+  
+.nav_logo {
+    color: #395b28;
+    font-size: 42px;
+    text-decoration: none;
+    margin-left: 0.75rem;
+    
+}
+  
+.logo_img {
+    width: 40px;
+    margin-top: 0.75rem;
+}
+  
+.nav_menu {
+    padding: 0.75rem 4rem;
+    margin-left: 8rem;
+}
+  
+.nav_list {
+    font-size: 17px;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin-top: -3rem;
+    margin-left: 17rem;
+}
+  
+.nav_link {
+    color: #334e25;
+    text-decoration: none;
+    margin-left: 80px;
+    display: inline-flex;
+    transition: background-color .3s;
+}
+  
+.gallery_body.dark {
+    background-color: #333;
+    color: #F1F8E9;
+}
+
+.customization {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+    gap: 20px;
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.photo-container { 
+    margin: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px; 
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.photo-container:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+} 
+
+.photo {
+    width: 100%;
+    display: block;
+}
+
+.caption {
+    text-align: center;
+    padding: 5px;
+}
+
+.extended-view {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 800px;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    z-index: 1001;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    color: #333;
+}
+
+.gallery_body.dark .extended-view {
+    background-color: #555;
+    color: #F1F8E9;
+}
+
+.extended-view img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.extended-view .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 34px;
+    cursor: pointer;
+    color: #333;
+}
+
+.gallery_body.dark .extended-view .close-button {
+    color: #F1F8E9;
+}
+
+/* header */
+body {
+    background-color: #F1F8E9;
+}
+  
+  
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    z-index: var(100);
+    background-color: #c1e899;
+}
+  
+.nav_container{
+    margin-top: 0.75rem;
+    margin-inline: 4rem;
+}
+  
+.nav_logo {
+    color: #395b28;
+    font-size: 42px;
+    text-decoration: none;
+    margin-left: 0.75rem;
+    
+}
+  
+.logo_img {
+    width: 40px;
+    margin-top: 0.75rem;
+}
+  
+.nav_menu {
+    padding: 0.75rem 4rem;
+    margin-left: 4rem;
+}
+  
+.nav_list, .icon{
+    font-size: 17px;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin-top: -3rem;
+    margin-left: 16rem;
+}
+  
+.nav_link {
+    color: #334e25;
+    text-decoration: none;
+    margin-left: 80px;
+    display: inline-flex;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+  
+.icon {
+    width: 40px;
+    margin-left: 80rem;
+}
+  
+.nav_link:hover {
+    transform: scale(1.25);
+}
+  
+.icon:hover {
+    transform: scale(1.25);
+}
+  
+.img1 {
+    width: 100%;
+    margin-top: 100px;
+}
+
+/* footer */
+
+footer {
+    background-color: #c1e899;
+    color: #395b28;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  }
+  
+  .students {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #334e25;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+  }
+  
+  .students:hover {
+    transform: scale(1.25);
+  
+  }

@@ -1,0 +1,155 @@
+.sitemap {
+  margin-top: 10rem;
+}
+
+.node { 
+  fill: #f0f0f0; 
+  stroke: #333; 
+  stroke-width: 2; 
+}
+
+.line { 
+  stroke: #666; 
+  stroke-width: 2; 
+}
+
+.node-label {  
+  font-size: 14px; 
+  fill: #333; 
+  cursor: pointer;
+  text-decoration: none;
+}
+
+/* Header */
+
+body {
+  background-color: #F1F8E9;
+}
+
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  z-index: var(100);
+  background-color: #c1e899;
+}
+
+.nav_container{
+  margin-top: 0.75rem;
+  margin-inline: 4rem;
+}
+
+.nav_logo {
+  color: #395b28;
+  font-size: 42px;
+  text-decoration: none;
+  margin-left: 0.75rem;
+  
+}
+
+.logo_img {
+  width: 40px;
+  margin-top: 0.75rem;
+}
+
+.nav_menu {
+  padding: 0.75rem 4rem;
+  margin-left: 4rem;
+}
+
+.nav_list, .icon{
+  font-size: 17px;
+  width: 100%;
+  display: flex;
+  list-style-type: none;
+  margin-top: -3rem;
+  margin-left: 16rem;
+}
+
+.nav_link {
+  color: #334e25;
+  text-decoration: none;
+  margin-left: 80px;
+  display: inline-flex;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.icon {
+  width: 40px;
+  margin-left: 80rem;
+}
+
+.nav_link:hover {
+  transform: scale(1.25);
+}
+
+.icon:hover {
+  transform: scale(1.25);
+}
+
+.img1 {
+  width: 100%;
+  margin-top: 100px;
+}
+
+footer {
+  background-color: #c1e899;
+  color: #395b28;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+.svg-container {
+  display: flex;
+  justify-content: center;
+}
+
+.svg-container a {
+  fill: none;
+}
+
+.svg-container a:hover {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* footer */
+
+footer {
+  background-color: #c1e899;
+  color: #395b28;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+}
+
+.students {
+  padding-left: 1rem;
+  padding-right: 1rem;
+  text-decoration: none;
+  color: #334e25;
+  font-size: 20px;
+  overflow: hidden;
+  cursor: pointer;
+  transition: transform 0.3s, box-shadow 0.3s;
+
+}
+
+.students:hover {
+  transform: scale(1.25);
+
+}

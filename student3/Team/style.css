@@ -1,0 +1,161 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #F1F8E9;
+}
+
+/* header  */
+  
+  .header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    z-index: var(100);
+    background-color: #c1e899;
+  }
+  
+  .nav_container{
+    margin-top: 0.75rem;
+    margin-inline: 4rem;
+  }
+  
+  .nav_logo {
+    color: #395b28;
+    font-size: 42px;
+    text-decoration: none;
+    margin-left: 0.75rem;
+    
+  }
+  
+  .logo_img {
+    width: 40px;
+    margin-top: 0.75rem;
+  }
+  
+  .nav_menu {
+    padding: 0.75rem 4rem;
+    margin-left: 4rem;
+  }
+  
+  .nav_list, .icon{
+    font-size: 17px;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    margin-top: -3rem;
+    margin-left: 16rem;
+  }
+  
+  .nav_link {
+    color: #334e25;
+    text-decoration: none;
+    margin-left: 80px;
+    display: inline-flex;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .icon {
+    width: 40px;
+    margin-left: 80rem;
+  }
+  
+  .nav_link:hover {
+    transform: scale(1.25);
+  }
+  
+  .icon:hover {
+    transform: scale(1.25);
+  }
+
+
+  /* team  */
+main {
+    margin-top: 5rem;
+    padding: 20px;
+}
+
+h1 {
+    color: black;
+}
+
+.team-page #team-container {
+    display: flex;
+    justify-content: space-around; 
+    flex-wrap: nowrap; 
+    gap: 10px; 
+}
+
+.team-member {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    width: 220px; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.team-member img {
+    border-radius: 50%;
+    height: 170px; 
+    width: 170px;
+    object-fit: cover; 
+}
+
+.team-member h2 {
+    color: #333;
+}
+
+.team-member p {
+    color: #555;
+}
+
+.team-member a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.team-member a:hover h2 {
+    text-decoration: underline;
+}
+
+.team-member:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* footer */
+
+footer {
+    background-color: #c1e899;
+    color: #395b28;
+    padding-top: 10px;
+    padding-bottom: 1rem;
+    text-align: center;
+    bottom: 0;
+    margin-top: 8%;
+    left: 0;
+    width: 100%;
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+  }
+  
+  .students {
+    padding-left: 1rem;
+    padding-right: 1rem;
+    text-decoration: none;
+    color: #334e25;
+    font-size: 20px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+  
+  }
+  
+  .students:hover {
+    transform: scale(1.25);
+  
+  }

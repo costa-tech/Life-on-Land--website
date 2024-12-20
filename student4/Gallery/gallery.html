@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="style.css">
+   <title>LIFE ON LAND</title>
+   <link rel="icon" href="tree.png">
+</head>
+<body class="gallery_body">
+    <header class="header" id="header">
+        <nav class="nav_container">
+        <div class="nav_data">
+            <img class="logo_img" src="tree.png" alt="logo image">
+            <a href="#header" class="nav_logo"> LIFE ON LAND</a>
+        </div>
+        <div class="nav_menu" id="nav-menu">
+            <ul class="nav_list">
+               <li><a href="/student2/home_page/home.html" class="nav_link">Home</a></li>
+
+               <li><a href="/student4/Gallery/gallery.html" class="nav_link">Gallery</a></li>
+               
+               <li><a href="/student1/Shop/shop.html" class="nav_link">Shop</a></li>
+
+               <li><a href="/student4/Sitemap/sitemap.html" class="nav_link">Site Map</a></li>
+
+               <li><a href="/student3/Team/Team.html" class="nav_link">About Us</a></li>
+
+               <li><a href="/student2/feedback/feedback.html" class="nav_link">Feedback</a></li>
+
+               <li><a href="/student3/User_profile/user.html" class="nav_link">User Data</a></li>
+               
+            </ul>
+            <a href="/student3/User_profile/profile.html"><img src="userIcon.png" alt="User Icon" class="icon"></a>
+        </div>
+        </nav>
+    </header>
+    <div class="customization">
+        <label for="theme-picker">Choose theme:</label>
+        <select id="theme-picker" name="theme-picker">
+            <option value="light">Light</option>
+            <option value="dark">Dark</option>
+        </select>
+        <label for="font-picker">Choose font style:</label>
+        <select id="font-picker" name="font-picker">
+            <option value="Arial">Arial</option>
+            <option value="Times New Roman">Times New Roman</option>
+            <option value="Courier New">Courier New</option>
+        </select>
+    </div>
+    <section><h1 style="text-align:center">G A L L E R Y</h1></section>
+    <div class="gallery">
+        <div class="photo-container" onclick="showExtendedView('AdobeStock_341491717.jpeg', ' A close-up view of rich, dark compost. The compost consists of decomposed organic matter, including kitchen scraps, leaves, and other plant materials. Its texture is crumbly and fertile, ready to nourish plants and enhance soil health.', 'Nutrient-Rich Compost Ready for Planting')">
+            <img src="AdobeStock_341491717.jpeg" alt="Photo 1" class="photo">
+            <p class="caption">Nutrient-Rich Compost Ready for Planting</p>
+        </div>
+        <div class="photo-container" onclick="showExtendedView('AdobeStock_291480101.jpeg', 'A vibrant assortment of fresh produce, including bell peppers, tomatoes, green beans, broccoli, pears, and carrots, is neatly arranged in eco-friendly mesh and cloth bags.', 'Fresh Produce in Eco-Friendly Bags')">
+            <img src="AdobeStock_291480101.jpeg" alt="Photo 2" class="photo">
+            <p class="caption">Fresh Produce in Eco-Friendly Bags</p>
+        </div>
+        <div class="photo-container" onclick="showExtendedView('AdobeStock_706845593.jpeg', 'Solar panels designed in the shape of blooming flowers. These innovative ‘solar flowers’ stand against a clear sky, with the sun casting its radiant glow upon them. Each petal-like panel captures sunlight, converting it into renewable energy. This harmonious blend of technology and aesthetics exemplifies sustainable design.', 'Harvesting Sunlight: Solar Flowers Blossom into Clean Energy')">
+            <img src="AdobeStock_706845593.jpeg" alt="Photo 3" class="photo">
+            <p class="caption">Harvesting Sunlight: Solar Flowers Blossom into Clean Energy</p>
+        </div>
+        <div class="photo-container" onclick="showExtendedView('AdobeStock_748624867.jpeg', 'A collection of young plants thriving in biodegradable pots. These pots, made from sustainable materials, promote eco-friendly gardening practices. The plants appear healthy, with vibrant green leaves and well-established root systems. The natural light illuminates the scene, emphasizing growth and sustainability.', 'Nurturing Life in Biodegradable Pots')">
+            <img src="AdobeStock_748624867.jpeg" alt="Photo 4" class="photo">
+            <p class="caption">Nurturing Life in Biodegradable Pots</p>
+        </div>
+        <div class="photo-container" onclick="showExtendedView('AdobeStock_780053886.jpeg', 'The image features a green collection of eco-friendly items and plants, including mint leaves, a disposable coffee cup, basil leaves, wooden cutlery, a vine with round leaves, and a potted plant with broader green leaves, all arranged on a green background.', 'A harmonious blend of natures freshness and eco-conscious living')">
+            <img src="AdobeStock_780053886.jpeg" alt="Photo 5" class="photo">
+            <p class="caption">A harmonious blend of nature’s freshness and eco-conscious living</p>
+        </div>
+        <div class="photo-container" onclick="showExtendedView('AdobeStock_706608613.jpeg', 'A group of individuals are engaged in a riverside planting activity, with one person kneeling and others in the background, promoting community involvement and environmental stewardship.', 'Community Hands for Green Lands')">
+            <img src="AdobeStock_706608613.jpeg" alt="Photo 6" class="photo">
+            <p class="caption">Community Hands for Green Lands</p>
+        </div>
+        <div class="photo-container" onclick="showExtendedView('AdobeStock_815209275.jpeg', 'A solar farm set in a verdant forest demonstrates how renewable energy technology and the environment can coexist peacefully. Solar panels of the solar farm fit in perfectly with the surrounding trees.', ' A Solar Farm')">
+            <img src="AdobeStock_815209275.jpeg" alt="Photo 7" class="photo">
+            <p class="caption"> A Solar Farm</p>
+        </div>
+        <div class="photo-container" onclick="showExtendedView('forest water sources.jpeg', 'The image depicts a serene forest scene with towering trees, green moss-covered trunks, and dense foliage, showcasing the natural beauty and impressive scale of forested landscapes.', 'Exploring Nature’s Majesty')">
+            <img src="forest_water_sources.jpeg" alt="Photo 8" class="photo">
+            <p class="caption">Exploring Nature’s Majesty</p>
+        </div>
+        <div class="photo-container" onclick="showExtendedView('AdobeStock_817277589.jpeg', 'a young plant with vibrant green leaves sprouting from rich, dark soil.', 'Nature’s First Step Towards Renewal')">
+            <img src="AdobeStock_817277589.jpeg" alt="Photo 9" class="photo">
+            <p class="caption">Nature’s First Step Towards Renewal</p>
+        </div>
+    </div>
+    <div id="extended-view" class="extended-view">
+        <span class="close-button" onclick="closeExtendedView()">&times;</span>
+        <img id="extended-image" src="#" alt="Extended Image">
+        <div id="extended-description"></div>
+        <p id="extended-caption"></p>
+    </div>
+    <footer id="footer">
+        <div>&copy; 2024 All right reserved. Members Group L5</div>
+        <hr>
+        <div>
+           <a href="/student1/Editor Page/editor.html" class="students">Thisun Senevirathna</a> |
+           <a href="/student2/page_editor/page_editor.html" class="students">Sanjana Senevirathna</a> |
+           <a href="/student3/Editorpage-Ushan/editor.html" class="students">Ushan Fernando</a> |
+           <a href="/student4/page-editor/page_editor.html" class="students">Himsara De Costa</a>
+        </div>
+        <hr>
+        <div>
+            <a href="#facebook">Facebook</a> | 
+            <a href="#twitter">Twitter</a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
